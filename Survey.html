@@ -1,0 +1,93 @@
+<!--Author: Jarrin Sacayanan-->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IT Compliance Resource Website</title><!--The purpose of this web page is to provide resources to learning about IT Compliance-->
+	<link rel="stylesheet" href="Resources.css"><!--This is linking to the CSS stylesheet that I also created for the resources page-->
+</head>
+<body>
+	<!--Page Banner/Header Image-->
+	
+	<div id="heading-image"></div>
+	<div class="nav-buttons">
+		<a href="index.html"><button>Home</button></a><br>
+		<a href="HowToResearch.html"><button>How To Research</button></a><br>
+		<!--<a href="WhatIsCompliance.html"><button>What is Compliance?</button></a><br>-->
+		<a href="Standards.html"><button>Standards</button></a><br>
+		<a href="Jobs.html"><button>Compliance Jobs</button></a><br>
+		<a href="Certs.html"><button>Certifications</button></a><br>
+		<a class="current-page-btn" href="Survey.html"><button>Survey</button></a>
+		<!--<button>Me</button>-->
+	</div>
+	
+	<!--Dropdown Menu Button-->
+	<div class="body-content">
+		<div id="dropdown">
+			<div class="dropdown">
+				<button class="dropbtn">Menu</button>
+				<div class="dropdown-content">
+					<a href="index.html">Home</a>
+					<a href="HowToResearch.html">How To Research</a>
+					<!--<a href="WhatIsCompliance.html">What is Compliance?</a>-->
+					<a href="Standards.html">Standards</a>
+					<a href="Jobs.html">Compliance Jobs</a>
+					<a href="Certs.html">Certifications</a>
+					<a class="current-drpdwn-btn" href="Survey.html">Survey</a>
+					<!--<a href="">Me</a>-->
+				</div>
+			</div>
+			<span id="title-line"><h2>Survey</h2></span>
+			<hr>
+		</div>
+	<!--Body Content-->
+	<h3>Purpose</h3>
+	<p>The purpose of this survey is to collect user input on the resource page. This is of course optional, but suggestions and input is encouraged.</p>
+	<h4>Questions</h4>
+	<form action="https://formspree.io/xbjkgabe" method="post" target="_blank">
+		<label><b>Date</b></label>
+			<input type="date" id="date" name="date" required><br><br><br>
+		<label><b>Question 1</b></label>
+			<p>How easy was this resource page to access?</p>
+				<select id="access" name="access"  required>
+					<option>--Select Option--</option>
+					<option value="5">5 - Very Easy</option>
+					<option value="4">4</option>
+					<option value="3">3</option>
+					<option value="2">2</option>
+					<option value="1">1 - Very Difficult</option>
+				</select><br><br>
+		<label><b>Question 2</b></label>
+			<p>How easy was this resource page to navigate?</p>
+				<select id="navigate" name="navigate" required>
+					<option>--Select Option--</option>
+					<option value="5">5 - Very Easy</option>
+					<option value="4">4</option>
+					<option value="3">3</option>
+					<option value="2">2</option>
+					<option value="1">1 - Very Difficult</option>
+				</select><br><br>
+		<label><b>Question 3</b></label>
+			<p>How useful was this resource page?</p>
+				<select id="useful" name="useful" required>
+					<option>--Select Option--</option>
+					<option value="5">5 - Very Useful</option>
+					<option value="4">4</option>
+					<option value="3">3</option>
+					<option value="2">2</option>
+					<option value="1">1 - Not Useful</option>
+				</select><br><br>
+		<label><b>Question 4</b></label>
+			<p>What is one takeaway for you from this resource page?</p>
+				<input type="textarea" id="takeaway" name="takeaway"><br><br>
+		<label><b>Question 5</b></label>
+			<p>What are some suggestions (if any) that you have for this resource page?</p>
+				<input type="textarea" id="suggest" name="suggest"><br><br>
+		<button type="reset" id="reset" name="reset">Reset</button>
+		<button type="submit" id="submit" name="submit">Submit</button>
+	</form>
+	<br><br><br><br><br><p id="end-line"><i>Author: Jarrin Sacayanan</i></p>
+	</div>
+</body>
+</html>
+				
